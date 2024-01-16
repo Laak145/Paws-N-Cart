@@ -1,7 +1,6 @@
-# This is a Python program for an online shopping cart for pet products
-# The program is designed to enable user be able to amend their shopping list.
-# as well as calculates the total cost of items.
-# The shopping cart also provides info on pet adoption centres and care advice.
+# This is a Python shopping cart program for a pet store(Paws n cart) 
+# The program is designed to enable user update their cart items and calculate the total cost of user's shopped items.
+# The shopping cart also provides info on pet adoption and care advice..
 
 # background codes
 line = "-"*40
@@ -36,6 +35,7 @@ menu_cart = {"chicken": 1.99, "turkey": 2.99, "lamb-mix": 3.70,
              "jumper": 4.99, "bed": 10.00, "blanket": 3.82, "shampoo": 1.00,
              "towel": 3.00, "brush": 3.50}
 try:
+    # Block of codes to manage user's choice to shop or for services
     while True:
         # This asks the user for choice; shop or services.
         welcome_question = input("To continue, enter either shop or services"
